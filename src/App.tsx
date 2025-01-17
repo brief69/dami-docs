@@ -11,25 +11,27 @@ import Technical from "./pages/Technical";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <LanguageProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <div className="min-h-screen bg-background">
-            <Navigation />
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/basics" element={<Basics />} />
-              <Route path="/technical" element={<Technical />} />
-            </Routes>
-          </div>
-        </BrowserRouter>
-      </LanguageProvider>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+const App = () => {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <LanguageProvider>
+          <TooltipProvider>
+            <div className="min-h-screen bg-background">
+              <Toaster />
+              <Sonner />
+              <Navigation />
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/basics" element={<Basics />} />
+                <Route path="/technical" element={<Technical />} />
+              </Routes>
+            </div>
+          </TooltipProvider>
+        </LanguageProvider>
+      </BrowserRouter>
+    </QueryClientProvider>
+  );
+};
 
 export default App;
