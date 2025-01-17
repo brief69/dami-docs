@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import Navigation from "./components/Navigation";
 import Index from "./pages/Index";
-import Basics from "./pages/Basics";
 import Technical from "./pages/Technical";
 
 const queryClient = new QueryClient();
@@ -23,7 +22,6 @@ const App = () => {
               <Navigation />
               <Routes>
                 <Route path="/" element={<Index />} />
-                <Route path="/basics" element={<Basics />} />
                 <Route path="/technical" element={<Technical />} />
               </Routes>
             </div>

@@ -17,15 +17,9 @@ const Hero = () => {
         <p className="text-xl md:text-2xl text-gray-400 mb-12">
           {t.subtitle}
         </p>
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <Link to="/basics">
-            <Button size="lg" className="w-full md:w-auto">
-              {t.learnBasics}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </Link>
+        <div className="flex justify-center">
           <Link to="/technical">
-            <Button variant="secondary" size="lg" className="w-full md:w-auto">
+            <Button variant="secondary" size="lg">
               {t.technicalDetails}
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

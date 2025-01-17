@@ -2,8 +2,7 @@ export const translations = {
   ja: {
     welcome: 'Dami プロトコルへようこそ',
     subtitle: '次世代の分散型アプリケーション向けに設計された革新的なインターネットプロトコル',
-    learnBasics: '基本を学ぶ',
-    technicalDetails: '技術詳細を見る',
+    technicalDetails: '細かいことを気にするタイプの人はこちら',
     whatIsDami: 'Damiとは？',
     damiDescription: 'Damiは、アプリケーションとサービス間の安全で効率的な分散通信を可能にする次世代インターネットプロトコルです。',
     keyBenefits: '主な利点',
@@ -24,8 +23,7 @@ export const translations = {
   en: {
     welcome: 'Welcome to Dami Protocol',
     subtitle: 'A revolutionary internet protocol designed for the next generation of decentralized applications',
-    learnBasics: 'Learn the Basics',
-    technicalDetails: 'Explore Technical Details',
+    technicalDetails: 'For those who care about the details',
     whatIsDami: 'What is Dami?',
     damiDescription: 'Dami is a next-generation internet protocol that enables secure, efficient, and decentralized communication between applications and services.',
     keyBenefits: 'Key Benefits',
@@ -46,8 +44,7 @@ export const translations = {
   zh: {
     welcome: '欢迎使用Dami协议',
     subtitle: '为下一代去中心化应用设计的革命性互联网协议',
-    learnBasics: '学习基础',
-    technicalDetails: '探索技术细节',
+    technicalDetails: '适合关注细节的人',
     whatIsDami: '什么是Dami？',
     damiDescription: 'Dami是一个新一代互联网协议，能够实现应用程序和服务之间安全、高效和去中心化的通信。',
     keyBenefits: '主要优势',
