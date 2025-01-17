@@ -18,7 +18,7 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-400 mb-12">
             {t.subtitle}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col gap-4 justify-center items-center">
             <Link to="/technical">
               <Button variant="secondary" size="lg">
                 {t.technicalDetails}
