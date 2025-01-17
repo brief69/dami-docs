@@ -18,10 +18,30 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-gray-400 mb-12">
             {t.subtitle}
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to="/technical">
               <Button variant="secondary" size="lg">
                 {t.technicalDetails}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+            <Link to="/developers">
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="bg-emerald-950 hover:bg-emerald-900 border-emerald-700"
+              >
+                {t.forDevelopers}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+            <Link to="/docs">
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="bg-indigo-950 hover:bg-indigo-900 border-indigo-700"
+              >
+                {t.technicalDocs}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>

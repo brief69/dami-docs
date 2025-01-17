@@ -3,6 +3,8 @@ export const translations = {
     welcome: 'Dami プロトコルへようこそ',
     subtitle: '次世代の分散型アプリケーション向けに設計された革新的なインターネットプロトコル',
     technicalDetails: '細かいことを気にするタイプの人はこちら',
+    forDevelopers: '開発する人こちら',
+    technicalDocs: '技術ドキュメントはこちら',
     whatIsDami: 'Damiとは？',
     principles: {
       redundancy: {
@@ -41,42 +43,80 @@ export const translations = {
     welcome: 'Welcome to Dami Protocol',
     subtitle: 'A revolutionary internet protocol designed for the next generation of decentralized applications',
     technicalDetails: 'For those who care about the details',
+    forDevelopers: 'For Developers',
+    technicalDocs: 'Technical Documentation',
     whatIsDami: 'What is Dami?',
-    damiDescription: 'Dami is a next-generation internet protocol that enables secure, efficient, and decentralized communication between applications and services.',
-    keyBenefits: 'Key Benefits',
-    benefits: {
-      security: 'Enhanced security through advanced encryption',
-      performance: 'Improved performance with optimized data transfer',
-      decentralized: 'Decentralized architecture for better reliability',
-      integration: 'Simple integration with existing systems'
-    },
-    gettingStarted: 'Getting Started',
-    steps: {
-      install: 'Install the Dami client library',
-      configure: 'Configure your connection settings',
-      initialize: 'Initialize the Dami protocol in your application',
-      start: 'Begin sending and receiving data'
+    principles: {
+      redundancy: {
+        title: 'Do we really need so many duplicates?',
+        points: ['If it\'s the same, we might as well reuse it.']
+      },
+      humanIntuition: {
+        title: 'Human intuition is unbeatable.',
+        points: ['AI\'s ability to judge people can\'t beat human intuition.']
+      },
+      distributedValue: {
+        title: 'Value is more distributed than you think.',
+        points: [
+          'Internet operations themselves have value, yet we\'re not getting compensated.',
+          'Is it because we\'re doing it willingly?'
+        ]
+      },
+      dataOwnership: {
+        title: 'Data ownership? Of course it\'s yours.',
+        points: [
+          'When you think about it, it\'s strange to entrust it to others',
+          'You keep your own data. Would you give your family registry to your company?'
+        ]
+      },
+      naturalSelection: {
+        title: 'Natural selection of content',
+        points: [
+          'Unused things disappear. Just like in biology. That\'s natural.',
+          'Things with value remain. Simple.',
+          'Malicious content gets naturally eliminated. No need to force it, we have immunity.'
+        ]
+      }
     }
   },
   zh: {
     welcome: '欢迎使用Dami协议',
     subtitle: '为下一代去中心化应用设计的革命性互联网协议',
     technicalDetails: '适合关注细节的人',
+    forDevelopers: '开发者入口',
+    technicalDocs: '技术文档',
     whatIsDami: '什么是Dami？',
-    damiDescription: 'Dami是一个新一代互联网协议，能够实现应用程序和服务之间安全、高效和去中心化的通信。',
-    keyBenefits: '主要优势',
-    benefits: {
-      security: '通过高级加密增强安全性',
-      performance: '通过优化数据传输提高性能',
-      decentralized: '去中心化架构提供更好的可靠性',
-      integration: '与现有系统轻松集成'
-    },
-    gettingStarted: '开始使用',
-    steps: {
-      install: '安装Dami客户端库',
-      configure: '配置连接设置',
-      initialize: '在应用程序中初始化Dami协议',
-      start: '开始发送和接收数据'
+    principles: {
+      redundancy: {
+        title: '我们真的需要这么多重复的东西吗？',
+        points: ['如果是一样的，不如重复使用。']
+      },
+      humanIntuition: {
+        title: '人类的直觉是无可比拟的。',
+        points: ['AI判断人的能力比不上人类的直觉。']
+      },
+      distributedValue: {
+        title: '价值的分布比你想象的更广。',
+        points: [
+          '互联网操作本身就有价值，但我们却没有得到补偿。',
+          '是因为我们是自愿的吗？'
+        ]
+      },
+      dataOwnership: {
+        title: '数据所有权？当然是你的。',
+        points: [
+          '仔细想想，把它托付给别人是很奇怪的',
+          '你保管自己的数据。你会把户口本交给公司吗？'
+        ]
+      },
+      naturalSelection: {
+        title: '内容的自然选择',
+        points: [
+          '未使用的东西会消失。就像生物一样。这是自然的。',
+          '有价值的东西会留下来。很简单。',
+          '恶意内容会自然被淘汰。不需要强制，我们有免疫力。'
+        ]
+      }
     }
   }
 };
