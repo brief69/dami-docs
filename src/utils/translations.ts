@@ -4,20 +4,37 @@ export const translations = {
     subtitle: '次世代の分散型アプリケーション向けに設計された革新的なインターネットプロトコル',
     technicalDetails: '細かいことを気にするタイプの人はこちら',
     whatIsDami: 'Damiとは？',
-    damiDescription: 'Damiは、アプリケーションとサービス間の安全で効率的な分散通信を可能にする次世代インターネットプロトコルです。',
-    keyBenefits: '主な利点',
-    benefits: {
-      security: '高度な暗号化による強化されたセキュリティ',
-      performance: '最適化されたデータ転送による性能向上',
-      decentralized: '信頼性向上のための分散アーキテクチャ',
-      integration: '既存システムとの簡単な統合'
-    },
-    gettingStarted: '始め方',
-    steps: {
-      install: 'Damiクライアントライブラリをインストール',
-      configure: '接続設定を構成',
-      initialize: 'アプリケーションでDamiプロトコルを初期化',
-      start: 'データの送受信を開始'
+    principles: {
+      redundancy: {
+        title: '同じものはそんなにいらないでしょう。',
+        points: ['どうせ同じなら使いまわせばいい。']
+      },
+      humanIntuition: {
+        title: '人間の直感には勝てない。',
+        points: ['aiが人を見る目は、人間の直感には勝てない。']
+      },
+      distributedValue: {
+        title: '価値は、案外分散してる。',
+        points: [
+          'インターネットの操作自体が価値になっているのに、ぼくらは対価をもらってない。',
+          'それは好き好んでやってるからか？'
+        ]
+      },
+      dataOwnership: {
+        title: 'データの所有権？当然自分のものでしょうよ。',
+        points: [
+          '他人に預けるのが変なんだよ、考えてみれば',
+          '自分のデータは自分で持ってる。普通でしょあなたの戸籍、会社に預けますかって？'
+        ]
+      },
+      naturalSelection: {
+        title: 'コンテンツの自然淘汰',
+        points: [
+          '使われないものは消えていく。生物と同じ。これ当然。',
+          '価値があるものは残る。シンプル',
+          '悪質なものも自然と排除される。無理しなくても免疫あるから。'
+        ]
+      }
     }
   },
   en: {
