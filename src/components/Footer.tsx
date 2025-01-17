@@ -7,9 +7,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4 text-white">Dami Protocol</h3>
-            <p className="text-gray-400">
+            <p className="text-gray-400 mb-4">
               次世代の分散型アプリケーション向けプロトコル
             </p>
+            <Button variant="link" className="text-xl font-semibold text-gray-400 hover:text-white transition-colors">
+              資金を提供したい人こちら
+            </Button>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 text-white">リソース</h3>
@@ -29,9 +32,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <Button variant="link" className="text-xl font-semibold text-gray-400 hover:text-white transition-colors">
-            資金を提供したい人こちら
-          </Button>
           <p className="mt-4 text-gray-500">&copy; 2024 Dami Protocol. All rights reserved.</p>
         </div>
       </div>
