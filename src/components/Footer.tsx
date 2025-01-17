@@ -1,3 +1,5 @@
+import { Button } from "./ui/button";
+
 const Footer = () => {
   return (
     <footer className="w-full py-12 mt-24 bg-gradient-to-r from-purple-900/40 to-blue-900/40 backdrop-blur-sm border-t border-gray-800">
@@ -26,8 +28,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500">
-          <p>&copy; 2024 Dami Protocol. All rights reserved.</p>
+        <div className="mt-8 pt-8 border-t border-gray-800 text-center">
+          <Button variant="link" className="text-gray-400 hover:text-white transition-colors">
+            資金を提供したい人こちら
+          </Button>
+          <p className="mt-4 text-gray-500">&copy; 2024 Dami Protocol. All rights reserved.</p>
         </div>
       </div>
     </footer>
