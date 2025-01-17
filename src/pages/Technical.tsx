@@ -21,6 +21,19 @@ await dami.send({
   return (
     <div className="content-section pt-24">
       <h1 className="text-4xl font-bold mb-8">Technical Details</h1>
+      
+      <Card className="p-6 mb-8">
+        <p className="text-gray-400 whitespace-pre-line">
+          ああ、長い文章か、と思ったり、時間がなかったり、眠かったりするでしょう。
+          そんな君は、この文章を読まずにその画面を閉じたり、前のページに戻っていい。
+          これは、読まなくていいということで、読まないといけないような気がしてしまう効果を誘発するためのものでも、突き放す意味もない。
+
+          なぜなら、これからここで説明する長い文章は、これを読まなくても君が損をしない仕組みについての詳細な説明だからだ。
+
+          一方で読んでいくにあたり有益な情報や有益なはっけんがないということではないので、チャットgptなどの生成aiに理解できるまで説明してもらうのもいいだろう。
+        </p>
+      </Card>
+
       <div className="grid gap-6">
         <Card className="p-6">
           <h2 className="text-2xl font-semibold mb-4">Protocol Architecture</h2>
