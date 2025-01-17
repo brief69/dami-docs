@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <Button variant="link" className="text-gray-400 hover:text-white transition-colors">
+          <Button variant="link" className="text-xl font-semibold text-gray-400 hover:text-white transition-colors">
             資金を提供したい人こちら
           </Button>
           <p className="mt-4 text-gray-500">&copy; 2024 Dami Protocol. All rights reserved.</p>
