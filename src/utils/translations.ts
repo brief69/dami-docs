@@ -1,6 +1,6 @@
 export const translations = {
   ja: {
-    welcome: 'Dami プロトコルへようこそ',
+    welcome: 'Welcome to Dami Protocol',
     subtitle: '次世代の分散型アプリケーション向けに設計された革新的なインターネットプロトコル',
     technicalDetails: '細かいことを気にするタイプの人はこちら',
     forDevelopers: '開発する人こちら',

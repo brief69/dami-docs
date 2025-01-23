@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,9 +11,11 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               次世代の分散型アプリケーション向けプロトコル
             </p>
-            <Button variant="link" className="text-xl font-semibold text-gray-400 hover:text-white transition-colors">
-              資金を提供したい人こちら
-            </Button>
+            <Link to="/donate">
+              <Button variant="outline" className="text-gray-400 hover:text-white transition-colors">
+                資金を提供したい人こちら
+              </Button>
+            </Link>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 text-white">リソース</h3>
