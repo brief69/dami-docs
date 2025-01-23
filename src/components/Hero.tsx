@@ -25,7 +25,11 @@ const Hero = () => {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Link to="/developers">
+            <a 
+              href="https://github.com/brief69/dami-ts" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <Button 
                 variant="outline" 
                 size="lg"
@@ -34,7 +38,7 @@ const Hero = () => {
                 {t.forDevelopers}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-            </Link>
+            </a>
             <Link to="/docs">
               <Button 
                 variant="outline" 
